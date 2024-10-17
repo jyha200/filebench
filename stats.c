@@ -99,7 +99,7 @@ stats_snap(void)
 	if (filebench_shm->shm_f_abort == FILEBENCH_ABORT_ERROR) {
 		filebench_log(LOG_ERROR,
 		    "NO VALID RESULTS! Filebench run terminated prematurely");
-		return;
+	//	return;
 	}
 
 	/* Freeze statistics during update */
